@@ -1,0 +1,22 @@
+###
+GET http://localhost:9393/aloha
+
+
+###
+GET http://localhost:9393/lucy?limit=1
+
+###
+POST http://localhost:9393
+Content-Type: application/json
+
+{
+    "newFriend": "lucy mchenryherny" 
+}
+
+###
+DELETE http://localhost:9393
+Content-Type: application/json
+
+{
+    "enemy": "lucy"
+}
